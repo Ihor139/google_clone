@@ -1,0 +1,31 @@
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+}
+.logo {
+  display: flex;
+  max-width: 130px;
+}
+.logo sub {
+  font-size: 14px;
+  line-height: 1;
+}
+.theme-toggle {
+  width: 30px;
+}
+@media (max-width: 680px) {
+  .logo {
+    max-width: 120px;
+  }
+  .logo sub {
+    font-size: 12px;
+  }
+  .theme-toggle {
+    width: 30px;
+  }
+}
